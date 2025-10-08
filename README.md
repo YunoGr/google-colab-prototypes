@@ -31,13 +31,34 @@ If any project proves valuable or matures beyond prototyping, it may be cleaned 
 ## Repository Structure
 
 google-colab-prototypes/
-├── notebooks/            # Main folder for all Colab notebooks (.ipynb files)
-│
-├── data/                 # Sample datasets or data files (if needed)
-│
-├── scripts/              # Optional helper scripts or utilities (e.g., data preprocessing)
-│
-└── README.md             # Main repo description and instructions
+## Repository Structure
+
+The repository is organized as follows:
+
+- **`data/`**: Raw and processed datasets
+  - `raw/`: Raw, unprocessed datasets
+  - `processed/`: Cleaned or processed datasets
+
+- **`notebooks/`**: Jupyter notebooks for exploration and modeling
+  - `exploration/`: Data exploration, visualization, and initial analysis
+  - `modeling/`: Machine learning model training, evaluation, and tuning
+
+- **`src/`**: Python scripts for data loading, model building, and utilities
+  - `data_preprocessing.py`: Functions for cleaning and preparing data
+  - `model_utils.py`: Functions for model training, evaluation, etc.
+
+- **`outputs/`**: Results, visualizations, and other output files
+  - `figures/`: Graphs, charts, or visualizations generated during analysis
+  - `predictions/`: Model predictions, output files, or submission files (e.g., Kaggle submissions)
+ 
+- **`tests/`**: Unit tests for the project (optional)
+  - `test_model.py`: Example tests for model functions or scripts
+
+- **`docs/`**: Documentation and architecture notes
+  - `architecture.md`: Optional overview of the project's architecture or design decisions
+
+- **`requirements.txt`**: Python dependencies for running the project locally
+- **`README.md`**: Main repository description and instructions
 
 ---
 
@@ -54,27 +75,3 @@ For questions or feedback, feel free to open an issue or reach out!
 ---
 
 Happy experimenting!
-
-
-
-google-colab-prototypes/
-├── notebooks/            # Main folder for all Colab notebooks (.ipynb files)
-│   ├── experiment1.ipynb
-│   ├── experiment2.ipynb
-│   └── README.md         # Optional: Notes or index for notebooks
-│
-├── data/                 # Sample datasets or data files (if needed)
-│   ├── sample-dataset.csv
-│   └── README.md         # Info about datasets or download instructions
-│
-├── scripts/              # Optional helper scripts or utilities (e.g., data preprocessing)
-│   └── preprocess.py
-│
-├── requirements.txt      # Python dependencies (if any) to run notebooks locally
-│
-├── .gitignore            # To exclude unnecessary files (e.g., __pycache__, .ipynb_checkpoints)
-│
-├── LICENSE               # License file (e.g., MIT)
-│
-└── README.md             # Main repo description and instructions
-
