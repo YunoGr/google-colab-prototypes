@@ -54,3 +54,27 @@ For questions or feedback, feel free to open an issue or reach out!
 ---
 
 Happy experimenting!
+
+
+
+google-colab-prototypes/
+├── notebooks/            # Main folder for all Colab notebooks (.ipynb files)
+│   ├── experiment1.ipynb
+│   ├── experiment2.ipynb
+│   └── README.md         # Optional: Notes or index for notebooks
+│
+├── data/                 # Sample datasets or data files (if needed)
+│   ├── sample-dataset.csv
+│   └── README.md         # Info about datasets or download instructions
+│
+├── scripts/              # Optional helper scripts or utilities (e.g., data preprocessing)
+│   └── preprocess.py
+│
+├── requirements.txt      # Python dependencies (if any) to run notebooks locally
+│
+├── .gitignore            # To exclude unnecessary files (e.g., __pycache__, .ipynb_checkpoints)
+│
+├── LICENSE               # License file (e.g., MIT)
+│
+└── README.md             # Main repo description and instructions
+
