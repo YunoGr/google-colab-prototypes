@@ -30,11 +30,11 @@ If any project proves valuable or matures beyond prototyping, it may be cleaned 
 
 ## Repository Structure
 
-├── notebooks/ # Main collection of Colab notebooks
-├── data/ # Sample datasets or links to datasets (optional)
-├── README.md # This file
-└── requirements.txt # (Optional) Python dependencies, if needed
-
+google-colab-prototypes/
+├── notebooks/            # Main folder for all Colab notebooks (.ipynb files)
+├── data/                 # Sample datasets or data files (if needed)
+├── scripts/              # Optional helper scripts or utilities (e.g., data preprocessing)
+└── README.md             # Main repo description and instructions
 
 ---
 
