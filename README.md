@@ -32,8 +32,11 @@ If any project proves valuable or matures beyond prototyping, it may be cleaned 
 
 google-colab-prototypes/
 ├── notebooks/            # Main folder for all Colab notebooks (.ipynb files)
+│
 ├── data/                 # Sample datasets or data files (if needed)
+│
 ├── scripts/              # Optional helper scripts or utilities (e.g., data preprocessing)
+│
 └── README.md             # Main repo description and instructions
 
 ---
